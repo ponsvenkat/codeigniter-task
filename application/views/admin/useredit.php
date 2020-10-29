@@ -150,9 +150,6 @@
 <script>
     var lat = '<?php echo $users['user_latitude']; ?>';
     var long = '<?php echo $users['user_longitude']; ?>';
-    lat = '13.08268';   
-    long = '80.270718';
-    console.log(lat,long);
     function initialize() {
  
       var myLatlng = new google.maps.LatLng(lat,long);
